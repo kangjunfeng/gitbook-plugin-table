@@ -35,7 +35,7 @@ function foldClick(classNm, tdClassNm){
 function initTable(){
 	var tr = document.querySelectorAll('tr');
 	Object.keys(tr).forEach(function(index){
-		if (tr[index].className.indexOf('fold') == 0) {
+		if (tr[index].className.indexOf('tr_') == 0) {
 			tr[index].style.display = 'none'
 		}
 	})
