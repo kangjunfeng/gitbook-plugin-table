@@ -24,7 +24,7 @@
 .plus::after {
  content: '';
  position: absolute;
- left: 50%;
+ left: 49%;
  top: 25%;
  height: 9px;
  border-left: 1px solid lightgray;
