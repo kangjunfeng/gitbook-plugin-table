@@ -1,12 +1,18 @@
 {
-  "name": "gitbook-plugin-tableplugin",
-  "version": "1.0.0",
-  "description": "",
+  "name": "gitbook-plugin-table",
+  "description": "plugin for GitBook",
+  "version": "1.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "gitbook": ">1.x.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/kangjunfeng/gitbook-plugin-table.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kangjunfeng/gitbook-plugin-table.git"
+  },
+  "license": "The MIT License",
+  "bugs": {
+    "url": "https://github.com/kangjunfeng/gitbook-plugin-table/issues"
+  }
 }
