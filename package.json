@@ -6,7 +6,7 @@
   "engines": {
     "gitbook": ">1.x.x"
   },
-  "homepage": "https://github.com/kangjunfeng/gitbook-plugin-table.git",
+  "homepage": "https://github.com/kangjunfeng/gitbook-plugin-table",
   "repository": {
     "type": "git",
     "url": "https://github.com/kangjunfeng/gitbook-plugin-table.git"
