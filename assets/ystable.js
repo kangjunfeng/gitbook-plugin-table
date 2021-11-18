@@ -41,9 +41,9 @@ function initTable(){
 	})
 }
 
-// require(["gitbook"], function(gitbook){
-// 	gitbook.events.bind('start', initTable)
-// });
+require(["gitbook"], function(gitbook){
+	gitbook.events.bind('start', initTable)
+});
 
 require(["gitbook"], function(gitbook){
 	gitbook.events.bind('page.change', initTable)
