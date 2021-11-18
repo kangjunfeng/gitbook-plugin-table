@@ -18,7 +18,7 @@
 	left: 25%;
 	top: 50%;
 	width: 9px;
-	border-top: 1px solid black;
+	border-top: 1px solid lightgray;
 }
  
 .plus::after {
@@ -27,7 +27,7 @@
  left: 50%;
  top: 25%;
  height: 9px;
- border-left: 1px solid black;
+ border-left: 1px solid lightgray;
 }
 
 .minus {
@@ -47,5 +47,5 @@
 	left: 25%;
 	top: 50%;
 	width: 9px;
-	border-top: 1px solid black;
+	border-top: 1px solid lightgray;
 }
