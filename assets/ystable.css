@@ -1,0 +1,51 @@
+.fold-icon {
+	position: relative;
+}
+
+.plus {
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  color: lightgray;
+  transition: color .25s;
+  position: absolute;
+	left: -40px;
+}
+
+.plus::before{
+	content: '';
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	width: 9px;
+	border-top: 1px solid black;
+}
+ 
+.plus::after {
+ content: '';
+ position: absolute;
+ left: 50%;
+ top: 25%;
+ height: 9px;
+ border-left: 1px solid black;
+}
+
+.minus {
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  color: lightgray;
+  transition: color .25s;
+  position: absolute;
+	left: -40px;
+	display: none;
+}
+
+.minus::before{
+	content: '';
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	width: 9px;
+	border-top: 1px solid black;
+}
